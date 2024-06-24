@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-header {
+    text-align: left;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+#about {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skill {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #444;
+}
+
+#recommendations {
+    padding: 20px;
+}
+
+.recommendation {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#new-recommendation {
+    padding: 20px;
+    text-align: center;
+}
+
+.home-icon {
+    width: 30px;
+    height: 30px;
+    text-align: right;
+}
